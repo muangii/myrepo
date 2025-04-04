@@ -37,7 +37,7 @@
         }
 
         nav a {
-            color: white;
+            color: black;
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.2rem;
