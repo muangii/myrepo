@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Martin..." content="Personal Portfolio Website">
+    <meta name="description" content="Personal Portfolio Website">
     <title>Your Martin - Portfolio</title>
     <style>
         /* Basic reset */
@@ -104,7 +104,7 @@
 <body>
 
 <header>
-    <h1>Your Name</h1>
+    <h1>Martin </h1>
     <p>Welcome to my personal portfolio</p>
 </header>
 
@@ -137,15 +137,15 @@
 <section id="contact" class="contact">
     <h2>Contact Me</h2>
     <form>
-        <input type="text" placeholder="Your Name" required><br><br>
-        <input type="email" placeholder="Your Email" required><br><br>
+        <input type="text" placeholder="Your name" required><br><br>
+        <input type="email" placeholder="your email" required><br><br>
         <textarea placeholder="Your Message" required></textarea><br><br>
         <button type="submit">Send Message</button>
     </form>
 </section>
 
 <footer>
-    <p>&copy; 2025 Your Name | <a href="https://www.linkedin.com/in/yourname">LinkedIn</a> | <a href="mailto:your.email@example.com">Email</a></p>
+    <p>&copy; 2025 Your Name | <a href="https://www.linkedin.com/in/martin-maina">LinkedIn</a> | <a href="mailto:muangiimaina@gmail.com">Email</a></p>
 </footer>
 
 <script>
