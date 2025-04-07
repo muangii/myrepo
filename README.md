@@ -32,14 +32,16 @@
       justify-content: space-between;
     }
 
-    .logo {
-      font-size: 4rem;
-      font-weight: bold;
-      background: linear-gradient(45deg, #FFD700, #fff1b5);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      padding: 10px 20px;
-      border-radius: 12px;
+    ..logo {
+  font-size: 8rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #FFD700, #fff1b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: shinny gold;
+  padding: 10px 20px;
+  border-radius: 16px;
+}
+
     }
 
     nav a {
