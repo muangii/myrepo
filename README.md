@@ -1,4 +1,6 @@
-# myrepo
+#myrepo
+
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -32,30 +34,13 @@
     }
 
     .logo {
-  font-size: 6rem;
-  font-weight: bold;
-  background: linear-gradient(45deg, #FFD700, #fff1b5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 14px 20px;
-  border-radius: 12px;
-}
-
-/* For screens smaller than 768px (tablets and mobile devices) */
-@media (max-width: 768px) {
-  .logo {
-    font-size: 3rem; /* Smaller size for tablets and phones */
-  }
-}
-
-/* For screens smaller than 480px (mobile devices) */
-@media (max-width: 480px) {
-  .logo {
-    font-size: 8.5rem; /* Even smaller size for mobile */
-  }
-}
-
-
+      font-size: 4rem;
+      font-weight: bold;
+      background: linear-gradient(45deg, #FFD700, #fff1b5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding: 10px 20px;
+      border-radius: 12px;
     }
 
     nav a {
@@ -81,6 +66,16 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       max-width: 800px;
       margin: auto;
+      text-align: center;
+    }
+
+    .bio img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid var(--accent-color);
     }
 
     .skills {
@@ -170,6 +165,7 @@
 
   <section id="about">
     <div class="bio">
+      <img src="https://via.placeholder.com/150" alt="Professional Photo" />
       <h1>About Me</h1>
       <p>
         Hello! I'm a passionate and driven data analyst with a deep interest in technology and innovation. I specialize in cloud computing, AI, and predictive analytics, and I enjoy using data to uncover meaningful insights and solve real-world problems.
