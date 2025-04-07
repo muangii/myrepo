@@ -1,5 +1,4 @@
 # myrepo
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -32,15 +31,30 @@
       justify-content: space-between;
     }
 
-    ..logo {
-  font-size: 8rem;
+    .logo {
+  font-size: 6rem;
   font-weight: bold;
   background: linear-gradient(45deg, #FFD700, #fff1b5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: shinny gold;
-  padding: 10px 20px;
-  border-radius: 16px;
+  -webkit-text-fill-color: transparent;
+  padding: 14px 20px;
+  border-radius: 12px;
 }
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 3rem; /* Smaller size for tablets and phones */
+  }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 8.5rem; /* Even smaller size for mobile */
+  }
+}
+
 
     }
 
@@ -231,3 +245,4 @@
   </footer>
 </body>
 </html>
+
